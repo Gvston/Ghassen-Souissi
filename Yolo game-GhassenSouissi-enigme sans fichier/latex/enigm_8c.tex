@@ -1,0 +1,94 @@
+\hypertarget{enigm_8c}{}\section{enigm.\+c File Reference}
+\label{enigm_8c}\index{enigm.\+c@{enigm.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}time.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}S\+D\+L/\+S\+D\+L.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$math.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}S\+D\+L/\+S\+D\+L\+\_\+ttf.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}enigm.\+h\char`\"{}}\\*
+Include dependency graph for enigm.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{enigm_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{enigm_8c_ab39701330d5b5e53de75d2dc02a32e09}{generate\+\_\+question} (int $\ast$n)
+\begin{DoxyCompactList}\small\item\em to generate random number \end{DoxyCompactList}\item 
+void \hyperlink{enigm_8c_a39136b881876a011385cbcbdb602cbba}{init\+\_\+affichier\+\_\+question} (int n, S\+D\+L\+\_\+\+Surface $\ast$screen)
+\begin{DoxyCompactList}\small\item\em to show the question \end{DoxyCompactList}\item 
+int {\bfseries resolution} (int n)\hypertarget{enigm_8c_aec0359022ae32346ca1b43fc38e922d6}{}\label{enigm_8c_aec0359022ae32346ca1b43fc38e922d6}
+
+\item 
+int \hyperlink{enigm_8c_a44acf4738d676b7f25d62cefca694cc1}{reponse} (int $\ast$rep)
+\begin{DoxyCompactList}\small\item\em to give the right answer \end{DoxyCompactList}\item 
+void {\bfseries afficher\+\_\+resultat} (S\+D\+L\+\_\+\+Surface $\ast$screen, int solution, int r)\hypertarget{enigm_8c_ab6b2c779523bee2c73a0f16ba9f49253}{}\label{enigm_8c_ab6b2c779523bee2c73a0f16ba9f49253}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{enigm.\+c@{enigm.\+c}!generate\+\_\+question@{generate\+\_\+question}}
+\index{generate\+\_\+question@{generate\+\_\+question}!enigm.\+c@{enigm.\+c}}
+\subsubsection[{\texorpdfstring{generate\+\_\+question(int $\ast$n)}{generate_question(int *n)}}]{\setlength{\rightskip}{0pt plus 5cm}int generate\+\_\+question (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{n}
+\end{DoxyParamCaption}
+)}\hypertarget{enigm_8c_ab39701330d5b5e53de75d2dc02a32e09}{}\label{enigm_8c_ab39701330d5b5e53de75d2dc02a32e09}
+
+
+to generate random number 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & the number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a the number 
+\end{DoxyReturn}
+\index{enigm.\+c@{enigm.\+c}!init\+\_\+affichier\+\_\+question@{init\+\_\+affichier\+\_\+question}}
+\index{init\+\_\+affichier\+\_\+question@{init\+\_\+affichier\+\_\+question}!enigm.\+c@{enigm.\+c}}
+\subsubsection[{\texorpdfstring{init\+\_\+affichier\+\_\+question(int n, S\+D\+L\+\_\+\+Surface $\ast$screen)}{init_affichier_question(int n, SDL_Surface *screen)}}]{\setlength{\rightskip}{0pt plus 5cm}void init\+\_\+affichier\+\_\+question (
+\begin{DoxyParamCaption}
+\item[{int}]{n, }
+\item[{S\+D\+L\+\_\+\+Surface $\ast$}]{screen}
+\end{DoxyParamCaption}
+)}\hypertarget{enigm_8c_a39136b881876a011385cbcbdb602cbba}{}\label{enigm_8c_a39136b881876a011385cbcbdb602cbba}
+
+
+to show the question 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & the number , screen \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\index{enigm.\+c@{enigm.\+c}!reponse@{reponse}}
+\index{reponse@{reponse}!enigm.\+c@{enigm.\+c}}
+\subsubsection[{\texorpdfstring{reponse(int $\ast$rep)}{reponse(int *rep)}}]{\setlength{\rightskip}{0pt plus 5cm}int reponse (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{rep}
+\end{DoxyParamCaption}
+)}\hypertarget{enigm_8c_a44acf4738d676b7f25d62cefca694cc1}{}\label{enigm_8c_a44acf4738d676b7f25d62cefca694cc1}
+
+
+to give the right answer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rep} & the number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+b the number 
+\end{DoxyReturn}
